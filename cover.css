@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.container-fluid {
+    background-color: hotpink;
+}
+
+.name {
+    font-family: 'Rouge Script', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    padding: 10px;
+}
+
+.links:hover {
+    color: hotpink;
+}
+
+img {
+    border-radius: 50%;
+    /* border: 3px solid white; */
+}
+
+.about-me {
+    color: hotpink;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;  
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:  1fr 1fr;
+}
+    
+.img {
+   grid-column: 3 / 4;
+   grid-row: center;
+}
+
+.about-me {
+    grid-column: 4 / 5;
+    grid-row: center;
+} 
+
+.all-links {
+    grid-row: 2 / 3;
+    text-align: center;
+}
